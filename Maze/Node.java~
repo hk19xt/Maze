@@ -1,0 +1,15 @@
+import java.util.*;
+
+/* This is node class. */
+
+public class Node{
+  
+  public int from;
+  public char to;
+  public Node path; // To keep track path for each linked list 
+  
+  public Node(int f, char t){
+    from = f;
+    to = t;
+  }
+}// Node
